@@ -66,7 +66,7 @@ body{
             #pp{
                 height: 25vmin;
                 width:25vmin;
-                background: var(--secondshade) url('avatar.png') no-repeat top;
+                background: var(--secondshade) url('fullBodyAvatar.png') no-repeat top;
                 background-size: 200px;
                 border-radius: 20px;
             }
