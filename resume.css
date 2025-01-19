@@ -1,0 +1,140 @@
+/* root */
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');    
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+:root{
+    --main-bg-color: #6a1a9b;
+    --yellow : #FFDE00;
+    --white : #ffffff;
+    --firstshade: #191919;
+    --secondshade: #323232;
+    --font1: "Carter One", system-ui;
+    --font2: "Climate Crisis", sans-serif;
+  }
+  
+  .font1{
+    /* .carter-one-regular { */
+        font-family: "Carter One", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      /* }       */
+  }
+  
+  .font2{
+      /* // <uniquifier>: Use a unique and descriptive class name */
+      /* .climate-crisis-<uniquifier> { */
+        font-family: "Climate Crisis", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+            "YEAR" 1979;
+        /* } */
+    }
+
+
+/* specific code for this page */
+        #right-heading{
+            width: 19vmin !important;
+        }
+    h3{
+        color: var(--yellow);
+    }
+
+    #containers-box{
+        margin-top: 7px;
+        width: 96%;
+        min-height: 115vh;
+        height: auto;
+        padding: 10px;  
+    }
+
+    #containers-box > div,ul{
+        height: auto;
+        line-height: 25px;
+    }
+        #link-container{
+            min-height: 12vh;
+            height: auto;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 10px;
+        }
+        #link-container > div{
+            width: 35vmin;
+            height: 6vmin;
+            margin: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;  
+        }
+        #summary-container{
+            padding: 5px 10px;
+            height: 15vmin;
+        }
+        #education-container{
+            height: 10vmin;
+            padding: 5px 0px;
+        }
+            #education-container ul,#skill-container ul,#experience-container ul{
+                list-style: none;
+            }
+        #skill-container{
+            padding: 5px 0px;
+            height: 45vmin !important;
+        }
+        #experience-container{
+            padding: 5px 0px;
+        }
+            .heading-list > li{
+                font-weight: bold;
+            }
+            .heading-list > li >ul >li{
+                font-weight: 100;
+            }
+            #link-container > div > div{
+                height: 100%;
+                width: 18%;   
+            }
+                #link-icon1{
+                    background:url('worldwideweb.png')  no-repeat center;
+                    background-size: 25px;
+                }
+                #link-icon2{
+                    background: url('github.png')  no-repeat center;
+                    background-size: 25px;
+                }
+                #link-icon3{
+                    background: url('linkedin.png')  no-repeat center;
+                    background-size: 25px;
+                }
+                #link-icon4{
+                    background: url('instagram2.png')  no-repeat center;
+                    background-size: 25px;
+                }
+                #link-icon5{
+                    background: url('youtube.png') no-repeat center;
+                    background-size: 25px;
+                }
+                #link-icon6{
+                    background: url('facebook2.png') no-repeat center;
+                    background-size: 25px;
+                }
+                #link-icon7{
+                    background: url('freelance.png') no-repeat center;
+                    background-size: 25px;
+                }
+                #link-icon8{
+                    background: url('videoediting.png') no-repeat center;
+                    background-size: 25px;
+                }
+            #link-container > div > a{
+                height: 100%;
+                width: 84%;
+                text-decoration: none;
+                color: var(--white);
+                display: flex;
+                align-items: center;
+                font-size: 15px;
+            }

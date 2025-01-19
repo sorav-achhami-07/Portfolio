@@ -1,0 +1,134 @@
+/* root */
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');    
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+:root{
+    --main-bg-color: #6a1a9b;
+    --yellow : #FFDE00;
+    --white : #ffffff;
+    --firstshade: #191919;
+    --secondshade: #323232;
+    --font1: "Carter One", system-ui;
+    --font2: "Climate Crisis", sans-serif;
+  }
+  
+  .font1{
+    /* .carter-one-regular { */
+        font-family: "Carter One", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      /* }       */
+  }
+  
+  .font2{
+      /* // <uniquifier>: Use a unique and descriptive class name */
+      /* .climate-crisis-<uniquifier> { */
+        font-family: "Climate Crisis", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+            "YEAR" 1979;
+        /* } */
+    }
+
+
+/* specific code for this page */
+    #select-nav{
+        background-color: var(--yellow) !important;
+        color: var(--firstshade) !important;
+    }   
+        h3{
+            font-size: 20px;
+            font-family: var(--font3);
+            margin: 30px auto 10px auto !important;
+        }
+        form{
+            padding: 0px 10px;
+            height: auto;
+            min-height: 22vmin;
+            width: 97%;
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 11vmin 11vmin;
+            justify-content: center;
+            align-items: center;
+        }
+        form > input{
+            height: 7vmin;
+            width: 93%;
+            border-radius: 5px;
+            background-color: transparent;
+            border: 2px solid var(--thirdshade);
+            color: var(--white);
+            font-size: medium;
+            font-weight: bold;
+            padding: 5px 10px;
+        }
+        form > input::placeholder{
+            color: var(--white);
+            font-weight: bold;
+            opacity: .2;
+        }   
+    #textarea-btn-container{
+        width: 98%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 7px;
+    }
+            textarea::placeholder{
+                padding: 0px !important;
+                opacity: .5;
+            }
+            textarea{
+                height: 7vmin;
+                width: 94.5%;
+                /* margin-right: 0px; */
+                border-radius: 5px;
+                background-color: transparent;
+                border: 2px solid var(--thirdshade);
+                font-size: medium;
+                color: var(--white);
+                min-height: 25vmin;
+                min-width: 906px;
+                padding: 15px;
+                font-weight: bold;
+            }
+        #btn-container{
+            height: 10vmin;
+            width: 98%;
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            margin-top: 10px;
+        }
+            button{
+                width: 27vmin;
+                background-color: var(--firstshade);
+                height: 70%;
+                border-radius: 10px;
+                font-size: 14px;
+                font-weight: bold;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                color: var(--yellow);
+                border: 2px solid var(--thirdshade);
+            }
+            button:hover{
+                width: 24vmin;
+                height: 60%;
+                margin-right: 10px;
+                font-size: small;
+            }
+            button:hover > #btn-icon{
+                background-size: 20px;
+            }
+                button > #btn-icon{
+                    width: 25px;
+                    height: 25px;
+                    background: url(send.png) no-repeat center;
+                    background-size: contain;
+                }

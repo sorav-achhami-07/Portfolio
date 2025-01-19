@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');    
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Climate+Crisis&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shippori+Antique+B1&display=swap');
+
+:root{
+    --main-bg-color: #6a1a9b;
+    --yellow : #FFDE00;
+    --white : #ffffff;  
+    --firstshade: #191919;
+    --secondshade: #323232;
+    --thirdshade: #666666;
+    --font1: "Carter One", system-ui;
+    --font2: "Climate Crisis", sans-serif;
+    --font3: "Shippori Antique B1", serif;
+  }
+  .font3{
+    .shippori-antique-b1-regular {
+      font-family: "Shippori Antique B1", serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+  }
+  section{
+    color: var(--white);
+  }
+  #right-sec h2{
+    color: var(--white) !important;
+    margin: 0px 0px;
+    font-size: xx-large;
+  }
+  #right-heading{
+    width: 24vmin;
+    height: 12vmin;
+    display: flex;
+    flex-direction: column;
+    margin: 5px 5px -15px 5px;
+  }
+    #right-heading .heading-progressbar{
+        background-color: var(--yellow);
+        width: 100%;
+        height: 5px;
+        border-radius: 10px;
+    }
+  .about-container{
+    width: 152vmin;
+  }
+  #about-bio{
+    width: 95%;
+  }
+  h3{
+    font-size: 20px;  
+    font-family: var(--font3);
+    margin: auto;
+  }
+  #about-bio p{
+    line-height: 25px;
+  }
+    #about-doing{
+      height: 45vmin;
+      display: grid;
+      grid-template-columns: auto auto;
+      justify-content: space-around;
+      align-items: center;
+    }
+      #about-doing > div{
+        background-color: var(--secondshade);
+        width: 71vmin;
+        height: 17vmin;
+        border-radius: 5px;
+        display: flex;
+      }
+        .doinglist-icon{
+          height: 100%;
+          width:20%;
+        } 
+          #icon-web-design{
+            background: url('webdesign.png') no-repeat center;
+          }
+          #icon-mobile-app{
+            background: url('mobileapp.png') no-repeat center;
+          }
+          #icon-digital-marketing{
+            background: url('mobileapp.png') no-repeat center;
+          }
+          #icon-digital-product{
+            background: url('digitalproduct.png') no-repeat center;
+          }
+          h4{
+            font-size: large;
+            margin: 0px;
+            margin-bottom: 3px;
+          }
+          .doinglist-para , .testimonials-box2 p{
+            font-size: small;
+            margin: 0px;
+            margin-top: 3px;
+          }
+        .doinglist-contantbox{
+            height: 91%;
+          width: 78%; 
+          padding: 5px; 
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+      #container-testimonials{
+        height: 22vmin;
+        display: flex;
+        flex-direction: row;
+        align-items: end; 
+        justify-content: space-around ; 
+      }
+      #container-testimonials > div{
+        height: 22vmin;
+        width: 50%;
+        display: flex;
+        /* justify-content: center; */
+        align-items: end;
+        margin: 0px 0px 0px 10px;
+      }
+    #left-testimonial{
+    }
+    #right-testimonial{
+      }
+  .left-testimonails-box1{
+    width: 10vmin;
+    height: 10vmin;
+    background-color: var(--thirdshade);
+    position: static;
+    /* top: 45vmax; */
+    margin: 0px 0px 65px 45px;
+    border-radius: 5px;
+    z-index: 2;
+  }
+      .testimonials-box2{
+        width: 71vmin;
+        height: 17vmin;   
+        background-color: var(--secondshade);
+        border-radius: 5px;
+        margin: 32px auto auto -100px;  
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+        #lt-pp1{  
+          background: var(--thirdshade) url('man1.png') no-repeat center;
+          background-size: contain;
+        }
+        #lt-pp2{
+          background: var(--thirdshade) url('man2.png') no-repeat center;
+          background-size: contain;
+        }
+        .testimonials-box2 h4{
+          margin: 0px 0px 0px -90px;
+        }
+        .testimonials-box2 p{
+          margin: 2px 10px;
+        }
+  #client-container{
+    height: 22vmin;
+    width: 147vmin;
+    background-color: var(--secondshade);
+    margin: 0px 0px 20px 20px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+  }
+    #client-container > div{
+      width: 24%;
+      height: 100%;
+      margin: auto 1%;
+    }
+      #brand1{
+        background: url('soravexp.png') no-repeat center;
+        background-size: 140px;
+      }
+      #brand2{
+        background: url('samiti.png') no-repeat;
+        background-position: bottom center;
+        background-size: contain; 
+      }
+      #brand3{
+        background: url('diggiassist.png') no-repeat center;
+        background-size: contain;
+      }
+      #brand4{
+        background: url('diggiassist2.png') no-repeat center;
+        background-size: contain;
+      } 
+
+  #nav-select{
+    background-color: var(--yellow) !important;
+    color: var(--firstshade) !important;
+  }
+  .about-br{
+    border-radius: 0px 0px 0px 10px !important;
+  }
